@@ -11,4 +11,7 @@ module.exports = {
     parserOptions: {
         project: './tsconfig.eslint.json',
     },
+    rules: {
+        "@typescript-eslint/lines-between-class-members": "off"
+    }
 };
